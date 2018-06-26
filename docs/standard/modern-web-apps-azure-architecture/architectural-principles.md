@@ -70,7 +70,7 @@ Quando esse princípio é aplicado à arquitetura do aplicativo e levado para se
 
 O aplicativo deve evitar especificar o comportamento relacionado a determinado conceito em vários locais, pois essa é uma fonte frequente de erros. Em algum momento, uma alteração nos requisitos exigirá a alteração desse comportamento e a probabilidade de que, pelo menos, uma instância do comportamento não conseguirá ser atualizada resultará em um comportamento inconsistente do sistema.
 
-Em vez de duplicar a lógica, encapsule-a em um constructo de programação. Torne esse constructo a autoridade única sobre esse comportamento e imponha o uso desse novo constructo a qualquer outra parte do aplicativo que exija esse comportamento.
+Em vez de duplicar a lógica, encapsule-a em um construtor de programação. Torne esse construtor a autoridade única sobre esse comportamento e imponha o uso desse novo construtor a qualquer outra parte do aplicativo que exija esse comportamento.
 
 > [!NOTE]
 > Evite associar um comportamento que é apenas coincidentemente repetitivo. Por exemplo, só porque duas constantes diferentes têm o mesmo valor, isso não significa que você deve ter apenas uma constante, caso elas estejam se referindo a coisas diferentes conceitualmente.
